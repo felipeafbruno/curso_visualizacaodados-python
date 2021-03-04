@@ -20,8 +20,8 @@ plt.scatter(x, y, label='Meus pontos', color='k', marker='.', s=z) # são os pon
 plt.plot(x, y, color='#000099', linestyle='--') # plot é a linha
 # legend() - faz com que a legenda aparece no gráfico
 plt.legend()
-# plt.show()
+plt.show()
 
 # salvar a figura 
 # dpi altera a resolução da imagem
-plt.savefig('figura1.png', dpi=300)
+# plt.savefig('figura1.png', dpi=300)
