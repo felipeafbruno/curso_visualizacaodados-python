@@ -22,11 +22,14 @@ for i in range(len(dados)):
 titulo_grafico = 'Crescimento da População Brasileira de 1980-2015'
 label_x = 'ano'
 label_y = 'população x100.000.000'
+legenda_x = 'ano'
+legenda_y = 'população'
 
 plt.title(titulo_grafico)
 plt.xlabel(label_x)
 plt.ylabel(label_y)
 
-plt.bar(x, y, color='#0A75AD')
-plt.plot(x, y, color='k', linestyle="--")
+plt.bar(x, y, color='#0A75AD', label=legenda_x)
+plt.plot(x, y, color='k', linestyle="--", label=legenda_y)
+plt.legend()
 plt.show()
