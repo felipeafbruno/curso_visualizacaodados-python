@@ -33,3 +33,5 @@ plt.bar(x, y, color='#0A75AD', label=legenda_x)
 plt.plot(x, y, color='k', linestyle="--", label=legenda_y)
 plt.legend()
 plt.show()
+
+# plt.savefig('população_brasileira.png', dpi=300)
